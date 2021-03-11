@@ -1,0 +1,117 @@
+@charset "UTF-8";
+
+.main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+#main_img {
+  min-height: 300px;
+  min-width: 500px;
+  max-height: 450px;
+  max-width: 800px;
+  margin-top: 2%;
+  margin-bottom: 3%;
+  width: 75%;
+  height: 35%;
+  background: url("../img/background.jpg") 50% 100% no-repeat;
+  background-size: cover;
+}
+
+#main_Button {
+  display: flex;
+  max-width: 800px;
+  width: 75%;
+  justify-content: space-evenly;
+}
+
+#main_Button a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#main_Button button {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  border: 2px solid #333;
+}
+
+#main_Button button:hover {
+  border-color: #59b1eb;
+}
+
+.btn1 {
+  background: url("../img/motel.png") no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.btn2 {
+  background: url("../img/hotel.png") no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.btn3 {
+  background: url("../img/pension.png") no-repeat;
+  background-size: cover;
+}
+
+.btn4 {
+  background: url("../img/resort.png") no-repeat;
+  background-size: cover;
+}
+
+.btn5 {
+  background: url("../img/guesthouse.png") no-repeat;
+  background-size: cover;
+}
+
+.main_news h1 {
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+
+.main_news div {
+  display: flex;
+}
+
+.news_table a {
+  border: 1px solid rgb(214, 213, 213);
+}
+
+.news_table img {
+  border: 1px solid rgb(214, 213, 213);
+}
+
+.main_news a:hover {
+  color: red;
+}
+.main_news a {
+  color: black;
+  text-decoration: none;
+}
+
+.news_table {
+  display: flex;
+  justify-content: space-around;
+}
+
+.news_table div {
+}
+
+@media screen and (max-width: 768px) {
+  #main_Button {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .news_table {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+  }
+}

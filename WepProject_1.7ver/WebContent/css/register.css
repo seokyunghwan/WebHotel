@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+
+#register{
+	padding-left: 150px;
+	padding-top: 150px;
+}
+
+#title{
+	margin-bottom: 50px;
+}
+
+div{
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+strong {
+	font-size: 30px;
+}
+
+b {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+
+select {
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+}
+
+#name{
+	width: 200px;
+	height: 35px;
+	font-size: 20px;
+}
+
+#location{
+	width: 200px;
+	height: 30px;
+	font-size: 20px;
+}

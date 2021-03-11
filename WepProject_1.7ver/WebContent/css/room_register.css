@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#room {
+	padding-left: 150px;
+	padding-top: 150px;
+}
+
+#register div{
+	width: 100%;
+	padding-bottom: 30px;
+}
+
+#title{
+	margin-bottom: 50px;
+}
+
+strong {
+	font-size: 30px;
+}
+
+b{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+

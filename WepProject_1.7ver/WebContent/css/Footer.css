@@ -1,0 +1,9 @@
+@charset "EUC-KR";
+.footer {
+  width: 100%;
+  font-size: 10%;
+  background: rgb(237, 237, 237);
+}
+.footer p{
+	margin-left: 100px;
+}

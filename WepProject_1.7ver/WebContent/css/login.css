@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.wrap_login {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	margin: 0px auto;
+}
+
+.wrap_login img {
+	width: 50%;
+	height: auto
+}

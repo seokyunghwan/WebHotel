@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+#mypage {
+	padding-top: 30px;
+	padding-bottom:50px;
+	margin-bottom: 48px;
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+}
+
+strong{
+	font-size: 30PX;
+	display: block;
+	margin: 0 0 43px 0;
+}
+
+#page {
+	width: 100%;
+	margin: 0 0 43px 5px;
+}
+
+#a{
+	font-size: 20px;
+	padding-right: 50px;
+}
+
+#btn{
+	display: block;
+	margin-bottom: 50px;
+	padding-right: 110px;
+}
+input[id^="in_"] {
+	display: none;
+	width: 250px;
+	height: 40px;
+	font-size: 20px;
+	background-color: #fff;
+}
+#btn2{
+	display: none;
+	background-color: red;
+}
+#btn3{
+	display: none;
+}
+input[id^="btn"]{
+	float:left;
+    margin-right: 5%;
+    width: 150px;
+    height: 42px;
+    border-radius: 4px;
+    font-weight:bold;
+    font-size: 15px;
+    color: rgba(0,0,0,0.87);
+    background-color: #fff
+}
+#bottom{
+	margin-left:200px;
+	height: 56px;
+    margin-top: 48px;
+    border-top: 1px solid rgba(0,0,0,0.08);
+    background: none;
+    text-align: left;
+}
+b[id^="b"]{
+	display: none;
+}
+span{
+	font-size: 15px;
+	margin-bottom: 20px;
+}
+#sc{
+	opacity: 0.5;
+}
